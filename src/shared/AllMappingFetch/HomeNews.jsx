@@ -4,6 +4,7 @@ import { FaBookmark, FaEye, FaShare } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const HomeNews = ({ homeNews }) => {
+    // eslint-disable-next-line no-unused-vars
     const { title, author, img, name, published_date, details, image_url, thumbnail_url, rating, number, total_view } = homeNews;
     return (
         <div>
