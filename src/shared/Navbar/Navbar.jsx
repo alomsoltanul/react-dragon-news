@@ -42,7 +42,7 @@ const Navbar = () => {
                     </div>
 
                     {
-                        user ? <button className="btn btn-info">SignOut</button> : <Link to="/login"><button className="btn btn-secondary">Login</button></Link> 
+                        user ? <button onSubmit={handleSignout} className="btn btn-info">SignOut</button> : <Link to="/login"><button className="btn btn-secondary">Login</button></Link> 
                     }
                    
                 </div>
